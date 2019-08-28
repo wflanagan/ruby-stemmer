@@ -16,7 +16,6 @@ Gem::Specification.new do |s|
   s.description = "Expose the bundled libstemmer_c library to Ruby."
   s.email = "oancea@gmail.com"
   s.extensions = ["ext/lingua/extconf.rb"]
-  s.has_rdoc = true
   s.extra_rdoc_files = ["README.rdoc"]
   s.files = `git ls-files`.split("\n")
   s.homepage = "http://github.com/aurelian/ruby-stemmer"
